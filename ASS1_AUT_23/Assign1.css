@@ -1,0 +1,46 @@
+.container {
+    background-color: rgb(21, 98, 161);
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    padding: 40px;
+    gap: 60px;
+    width: auto;
+    margin: auto;
+}
+li a:hover {
+    background-color: #452e2ee0;
+    
+    border-bottom: 6px green;
+  }
+
+
+.section2 {
+    background-color: red;
+    display: flex;
+    gap: 100px;
+    align-content: flex-end;
+    padding: 40px;
+    width: auto;
+    margin: auto;
+}
+
+.section3 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: auto;
+    margin: auto;
+}
+
+.grid-content{
+    background: yellowgreen;
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+column-gap: 30px;  }
+
+.special-font{
+    font-family: pacifico;
+    text-align: center;
+  }
